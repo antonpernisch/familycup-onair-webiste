@@ -1,0 +1,57 @@
+<div class="modal fade" id="vysledky-modal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="w-100">
+          <span class="fs-3 me-2">
+            <span class="h2 me-3"><span id="vysledky-modal-startNo" style="color: #C0C0C0;">(číslo štartu)</span></span>
+            <span id="vysledky-modal-categ">(kategoria)</span></span><span class="fs-3 me-3"><span
+              id="vysledky-modal-startType">(typ
+              štartu)</span></span>
+          <span>
+            <span class="h2 fw-bold" id="vysledky-modal-startTime">(čas štartu)</span>
+          </span>
+        </span>
+        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row my-3">
+            <div class="h2 text-center">Výsledková listina</div>
+          </div>
+          <div class="row">
+            <div class="table-responsive">
+              <table class="table table-striped align-middle">
+                <thead>
+                  <tr>
+                    <th scope="col" style="width: 5%">#</th>
+                    <th scope="col" style="width: 5%">Č.</th>
+                    <th scope="col" style="width: 56%">Posádka</th>
+                    <th scope="col" style="width: 10%">Čas</th>
+                    <th scope="col" style="width: 12%"><i class="fas fa-arrows-alt-h"></i></th>
+                    <th scope="col" style="width: 12%"><i class="fas fa-flag-checkered"></i></th>
+                  </tr>
+                </thead>
+                <tbody id="vysledky-modal-tabulka">
+                  <!-- <tr>
+                    <th scope="row">1.</th>
+                    <td>2</td>
+                    <td>Marek Jablčný & Adam Pomarančový</td>
+                    <td>1:23.32</td>
+                    <td></td>
+                  </tr> -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center my-5" id="vysledky-modal-podtab"></div>
+        </div>
+      </div>
+      <div class="modal-footer" id="vysledky-modal-badges">
+        <!-- <span class="h5"><span class="badge rounded-pill bg-light text-dark">Publikované 12:32</span></span>
+        <span class="h5"><span class="badge rounded-pill bg-success"><i class="far fa-star me-2"></i>Bodované</span></span> -->
+        (odznaky)
+      </div>
+    </div>
+  </div>
+</div>

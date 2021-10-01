@@ -1,0 +1,51 @@
+<div class="modal fade" id="rozpis-modal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="w-100">
+          <span class="fs-3 me-2">
+            <span class="h2 me-3"><span id="rozpis-modal-startNo" style="color: #C0C0C0;">(číslo štartu)</span></span>
+            <span id="rozpis-modal-categ">(kategoria)</span></span><span class="fs-3 me-3"><span
+              id="rozpis-modal-startType">(typ
+              štartu)</span></span>
+          <span>
+            <span class="h2 fw-bold" id="rozpis-modal-startTime">(čas štartu)</span>
+          </span>
+        </span>
+        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row my-3">
+            <div class="h2 text-center">Štartová listina</div>
+            <div class="my-2 text-center" id="rozpis-modal-nadtab"></div>
+          </div>
+          <div class="row">
+            <div class="table-responsive">
+              <table class="table table-striped align-middle">
+                <thead>
+                  <tr>
+                    <th scope="col" style="width: 10%">Č.</th>
+                    <th scope="col" style="width: 90%">Posádka</th>
+                  </tr>
+                </thead>
+                <tbody id="rozpis-modal-tabulka">
+                  <!-- <tr>
+                    <th scope="row">1.</th>
+                    <td>Marek Jablčný & Adam Pomarančový</td>
+                  </tr> -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center my-5" id="rozpis-modal-podtab"></div>
+        </div>
+      </div>
+      <div class="modal-footer" id="rozpis-modal-badges">
+        <!-- <span class="h5"><span class="badge rounded-pill bg-light text-dark">Publikované 12:32</span></span>
+        <span class="h5"><span class="badge rounded-pill bg-success"><i class="far fa-star me-2"></i>Bodované</span></span> -->
+        (odznaky)
+      </div>
+    </div>
+  </div>
+</div>
